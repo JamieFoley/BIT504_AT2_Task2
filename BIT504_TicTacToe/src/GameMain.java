@@ -111,9 +111,11 @@ public class GameMain extends JPanel implements MouseListener{
 				switch(thePlayer) {
 					case Cross: {
 						currentState = GameState.Cross_won;
+						break;
 				} 
 					case Nought: {
 						currentState = GameState.Nought_won;
+						break;
 				}
 					default:
 						break; 
